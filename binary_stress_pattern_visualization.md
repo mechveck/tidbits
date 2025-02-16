@@ -155,46 +155,57 @@ export default StressVisualizer;
 [ChatGPT o1's "Visualization":]
 Here’s a conceptual “mental movie” of what’s happening in that code:
 
-1. Two circles side by side (for the two syllables).
-	•	The stressed syllable circle is larger (100x100) and colored blue.
-	•	The unstressed circle is smaller (60x60) and gray.
+**1. Two circles side by side (for the two syllables).**  
+- The **stressed** syllable circle is larger (100x100) and colored blue.  
+- The **unstressed** circle is smaller (60x60) and gray.
 
-2. They both “pulse” in size, but at different speeds:
-	•	The stressed circle (blue) completes one pulse cycle in 2 seconds:
-	1.	It starts at normal size (scale: 1)
-	2.	Slowly expands (scale: 1.1)
-	3.	Returns to normal size (scale: 1)
-	4.	Repeats…
-	•	The unstressed circle (gray) completes its pulse cycle in 1 second—effectively twice as fast:
-	1.	Starts at normal size (scale: 1)
-	2.	Expands (scale: 1.1)
-	3.	Returns to normal size (scale: 1)
-	4.	Repeats (and thus fits two cycles in the same 2 seconds that the stressed circle takes for one).
+---
+
+**2. They both “pulse” in size, but at different speeds:**
+
+- The **stressed** circle (blue) completes one pulse cycle in **2 seconds**:  
+  1. It starts at normal size (scale: 1)  
+  2. Slowly expands (scale: 1.1)  
+  3. Returns to normal size (scale: 1)  
+  4. Repeats…
+
+- The **unstressed** circle (gray) completes its pulse cycle in **1 second**—effectively twice as fast:  
+  1. Starts at normal size (scale: 1)  
+  2. Expands (scale: 1.1)  
+  3. Returns to normal size (scale: 1)  
+  4. Repeats (and thus fits *two* cycles in the same 2 seconds that the stressed circle takes for *one*).
+
+---
 
 If you imagine them side-by-side on a timeline, it might look like this for a 2-second window:
 
 Time   0s   0.5s   1.0s   1.5s   2.0s
-      |-----|-----|-----|-----|-----|
+|—–|—–|—–|—–|—–|
 Stressed (2s cycle)
 Scale   1    1.05   1.1   1.05   1  (then repeats)
 
 Unstressed (1s cycle)
 Scale   1    1.1    1     1.1    1  (then repeats)
 
-	•	The stressed circle is gently pulsing: from size 1 → up to 1.1 → back to 1 over 2 full seconds.
-	•	The unstressed circle is pulsing at double speed: it will do that expand–contract cycle twice in the same amount of time.
+- The **stressed** circle is gently pulsing: from size 1 → up to 1.1 → back to 1 over 2 full seconds.  
+- The **unstressed** circle is pulsing at double speed: it will do that expand–contract cycle twice in the same amount of time.
 
-3. “Noun” vs. “Verb” stress changes which circle is big/blue
-	•	For “present”:
-	•	Noun = PRE-sent → first syllable is stressed (the first circle is bigger, blue, slower pulse).
-	•	Verb = pre-SENT → second syllable is stressed (the second circle is bigger, blue, slower pulse).
-	•	For “record”:
-	•	Noun = RE-cord → first syllable is stressed.
-	•	Verb = re-CORD → second syllable is stressed.
+---
+
+**3. “Noun” vs. “Verb” stress changes which circle is big/blue**  
+- For **“present”**:  
+  - Noun = **PRE**-sent → first syllable is stressed (the first circle is bigger, blue, slower pulse).  
+  - Verb = pre-**SENT** → second syllable is stressed (the second circle is bigger, blue, slower pulse).  
+
+- For **“record”**:  
+  - Noun = **RE**-cord → first syllable is stressed.  
+  - Verb = re-**CORD** → second syllable is stressed.
 
 When you click “Toggle Noun/Verb” or “Switch Word,” it flips which circle is bigger/blue (stressed) vs. smaller/gray (unstressed), and the pulsing speeds stay the same logic: stressed circle = slow pulse, unstressed circle = fast pulse.
 
-In short:
-	•	Blue circle = stressed syllable, bigger, 2-second expand-and-contract animation.
-	•	Gray circle = unstressed syllable, smaller, 1-second expand-and-contract animation.
-	•	Together, they look like they’re “breathing” at different tempos—a neat visual of stress timing in pronunciation!
+---
+
+**In short:**  
+- **Blue circle** = stressed syllable, bigger, **2-second** expand-and-contract animation.  
+- **Gray circle** = unstressed syllable, smaller, **1-second** expand-and-contract animation.  
+- Together, they look like they’re “breathing” at different tempos—a neat visual of stress timing in pronunciation!
