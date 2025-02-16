@@ -3,14 +3,11 @@
 
 A React component that visualizes stress patterns in English words, demonstrating how stress position can change meaning (e.g., noun vs. verb forms).
 
-[*Claude 3.5:*] A React component that visualizes stress patterns in English words, demonstrating how stress position can change meaning (e.g., noun vs. verb forms).
+[*Claude 3.5 + mechveck edits:*] A React component that visualizes stress patterns in English words, demonstrating how stress position can change meaning (e.g., noun vs. verb forms).
 
 ## Development Status: Workshop Phase
 
-This project is currently in the Workshop phase of development, following a theater/arts development model:
-- **Workshop** (Current) → Lab Testing → Open Rehearsal → Performance
-
-In this phase, we're:
+This project is currently in the Workshop phase of development. In this phase, we're:
 - Implementing basic binary stress visualization (stressed/unstressed)
 - Testing with simple noun/verb pairs (e.g., "present", "record")
 - Preparing for initial Lab Testing with 2-3 students
