@@ -1,6 +1,6 @@
 **mechveck**: _It seems a human hand is still needed with large language/transformer models and stress patterning. I've aimed for accuracy, and stuck with common vocabulary, but even then, the dictionaries and linguists and teachers etc. often disagree on the simplest terms._
 
-*//Generated and iterated with Anthropic's Claude and OpenAI's o1*
+*Generated and iterated with Anthropic's Claude and OpenAI's o1*
 
 # Stress-Pattern Visualizer
 
