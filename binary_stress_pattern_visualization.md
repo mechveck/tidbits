@@ -175,13 +175,15 @@ Here’s a conceptual “mental movie” of what’s happening in that code:
 
 If you imagine them side-by-side on a timeline, it might look like this for a 2-second window:
 
+```
 Time   0s   0.5s   1.0s   1.5s   2.0s
-|—–|—–|—–|—–|—–|
+      |-----|-----|-----|-----|-----|
 Stressed (2s cycle)
 Scale   1    1.05   1.1   1.05   1  (then repeats)
 
 Unstressed (1s cycle)
 Scale   1    1.1    1     1.1    1  (then repeats)
+```
 
 - The **stressed** circle is gently pulsing: from size 1 → up to 1.1 → back to 1 over 2 full seconds.  
 - The **unstressed** circle is pulsing at double speed: it will do that expand–contract cycle twice in the same amount of time.
