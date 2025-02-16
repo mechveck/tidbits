@@ -3,7 +3,7 @@
 
 A React component that visualizes stress patterns in English words, demonstrating how stress position can change meaning (e.g., noun vs. verb forms).
 
-[*Claude 3.5:*] A React component that visualizes [a]stress patterns in English words, demonstrating how stress position can change meaning (e.g., noun vs. verb forms).
+[*Claude 3.5:*] A React component that visualizes stress patterns in English words, demonstrating how stress position can change meaning (e.g., noun vs. verb forms).
 
 ## Development Status: Workshop Phase
 
