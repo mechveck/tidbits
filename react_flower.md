@@ -1,3 +1,5 @@
+**⚠️ Warning: Contains flashing animations**
+
 Here is a Flower Visualization React component by Claude 3.5 and o1. [See here](https://www.tumblr.com/mechveck/770561749036515328/flower-visualization-react-component-by-claude?source=share).
 
 ```
