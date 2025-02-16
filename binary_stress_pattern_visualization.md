@@ -1,4 +1,7 @@
-[currently adjusting the stress-patterning, which is where the human hand is still needed/useful/functional]
+[*mechveck: It seems a human hand is still needed with large language/transformer models and stress patterning. I've aimed for accuracy, and stuck with common vocabulary, but even then, the dictionaries and linguists and teachers etc. often disagree on the simplest terms.]
+
+*//Generated and iterated with Anthropic's Claude and OpenAI's o1*
+
 # Stress-Pattern Visualizer
 
 A React component that visualizes stress patterns in English words, demonstrating how stress position can change meaning (e.g., noun vs. verb forms).
@@ -149,7 +152,7 @@ const StressVisualizer = () => {
 export default StressVisualizer;
 ```
 
-[ChatGPT o1's "Visualization":]
+[*ChatGPT o1's Written-Out Visualization:*]
 Here’s a conceptual “mental movie” of what’s happening in that code:
 
 **1. Two circles side by side (for the two syllables).**  
